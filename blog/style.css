@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', fantasy;
+    color: #313131;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)),
+        url('./img/pexels-sam-nam-1204148.jpg');
+    height: 550px;
+    background-size: cover;
+    color: #fff;
+}
+
+.hero h1 {
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(24, 22, 22);
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.wrapper ul {
+    display: flex;
+    list-style-type: none;
+    color: #ff8a80;
+}
+
+.wrapper ul li {
+    margin: 0 0.5rem;
+    font-weight: 700;
+    padding: 3px 8px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.logo {
+    text-align: center;
+    max-width: 280px;
+    margin: 10px auto;
+    height: 80px;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.content {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 150px;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.content .title {
+    color: #ff8a80;
+    margin: 0 50px 15px 0;
+}
+
+.content .title-sec {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+.content button {
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #ff8a80;
+    border-color: #ff8a80;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 50px;
+}
+
+.content button:hover {
+    background-color: #fafafa;
+    border-color: #ffffff;
+    color: #ff8a80;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.news {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.text .btn {
+    width: 170px;
+    height: 34px;
+    border-radius: 7px;
+    color: black;
+    background-color: #ff8a80;
+    border-color: #ff8a80;
+    margin: 80px 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.text p {
+    text-align: justify;
+}
+
+.text h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.date {
+    font-style: italic;
+    color: gray;
+    font-size: 14px;
+}
+.text .container-img {
+    height: 320px;
+    clear: both;
+    margin-right: 50px;
+}
+
+.text .container-img h3 {
+    margin-bottom: 20px;
+}
+
+.text .container-img img {
+    width: 50%;
+    height: auto;
+    float: left;
+    margin: 0 20px 20px 0;
+    border-radius: 15px;
+}
+
+.category {
+    text-align: center;
+}
+
+.category ul {
+    display: block;
+    list-style-type: none;
+}
+
+.category h1 {
+    margin-top: 50px;
+}
+
+.category ul li {
+    margin: 0 0.5rem;
+    font-weight: 700;
+    padding: 6px 80px;
+    border-bottom: 1px solid #888;
+    margin-top: 10px;
+}
+
+.about h1 {
+    border: 1px solid white;
+    padding: 3px;
+    background-color: #ff8a80;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.about-img {
+    width: 250px;
+    margin: 30px auto;
+}
+.about-img img {
+    clip-path: circle(48%);
+    height: auto;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.subscription {
+    display: block;
+    margin: 30px;
+    border: 1px solid gray;
+    padding: 30px;
+}
+
+.subscription p {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.subscription input {
+    padding: 5px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.subscription .btn {
+    width: 170px;
+    height: 34px;
+    border-radius: 7px;
+    color: #ffffff;
+    background-color: #080808;
+    border-color: #080808;
+    margin-top: 20px;
+}
+
+.footer {
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    background-color: rgb(24, 22, 22);
+    color: white;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .address {
+    margin-top: 50px;
+    width: 250px;
+}
+
+.menu {
+    width: 100%;
+}
+
+.menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0 0 200px;
+}
+
+.menu-wrapper ul {
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+.menu-wrapper ul li {
+    padding-top: 20px;
+}
